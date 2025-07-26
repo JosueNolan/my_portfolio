@@ -22,7 +22,9 @@ i18n
   .init({
     fallbackLng: 'en',
     debug: true,
-
+    backend: {
+      loadPath: "/my_portfolio/locales/{{lng}}/translation.json"
+    },
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     }
