@@ -1,0 +1,15 @@
+{
+    "headerTitle": "Mi Portafolio",
+    "langChangeLabel" : "Cambiar idioma",
+    "langChangeItem1": "Español",
+    "langChangeItem2": "Ingles",
+    "darkThemeTranslation": "Oscuro",
+    "lightThemeTranslation": "Claro",
+    "aboutMe": "Desarrollador full-stack con más de 5 años de experiencia creando soluciones web y móviles con React, React Native, Node.js, PHP y ASP .NET. Especialista en bases de datos relacionales y no relacionales, y patrones de diseño. Comprometido con la entrega de productos escalables, eficientes y bien documentados.",
+    "projectSectionTitle": "Proyectos Destacados",
+    "projectCardFooterTitle": "Tecnologías usadas",
+    "projectConectaTampsDescription": "Conecta Tamaulipas es una aplicación realizada para la Coordinación de Prevención del Delito del Secretariado Ejecutivo del Sistema Estatal de Seguridad Pública Tamaulipas",
+    "projectPiaigesDescription": "Permite a la ciudadanía visualizar, de manera interactiva, datos relevantes sobre los delitos ocurridos en los 43 municipios de Tamaulipas. A través de la integración de información de diversas fuentes, como el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP)",
+    "projectMexplorDescripcion": "Aplicación de audio tours sobre diferentes destinos en México.",
+    "projectPiaigesWebDescription": "Aplicación sobre estadísticas de incidencia delictiva de los 43 municipios del Estado de Tamaulipas, México."
+}

@@ -1,0 +1,15 @@
+{
+    "headerTitle": "My Portfolio",
+    "langChangeLabel" : "Change language",
+    "langChangeItem1": "Spanish",
+    "langChangeItem2": "English",
+    "darkThemeTranslation": "Dark",
+    "lightThemeTranslation": "Light",
+    "aboutMe": "Full-stack developer with more than 5 years of experience creating web and mobile solutions with React, React Native, Node.js, PHP and ASP .NET. Specialist in relational databases and not relational, and design patterns. Committed to the delivery of scalable, efficient and well-documented products.",
+    "projectSectionTitle": "Main Projects",
+    "projectCardFooterTitle": "Used Skills",
+    "projectConectaTampsDescription": "Conecta Tamaulipas is an application develop by request of the ",
+    "projectPiaigesDescription": "Allows citizens visualize in a interactive way about ocurred crimes over the 43 municipalities of Tamaulipas. Through different information sources such as the Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP).",
+    "projectMexplorDescripcion": "App about audio tours to travel across different places in México.",
+    "projectPiaigesWebDescription": "Application about crime statistics over the 43 municipalities of Tamaulipas, Mexico."
+}
