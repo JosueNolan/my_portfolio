@@ -1,11 +1,14 @@
 import { useTranslation } from "react-i18next"
 import { useTheme } from "../ThemeProvider"
+import { Button } from "../ui/button"
+import { FaLinkedin } from "react-icons/fa"
+import { IoDocumentText } from "react-icons/io5"
 
 const AboutMe = () => {
 	const { theme } = useTheme()
-    const {t} = useTranslation()
+	const { t, i18n } = useTranslation()
 	return (
-		<section className="mt-10 flex justify-center py-6">
+		<section className="flex justify-center py-6 my-32">
 			<div className="flex items-center justify-between gap-[72px] sm:w-full md:w-[1080px] max-sm:flex-col">
 				<img
 					src="img/foto_josue.jpg"
@@ -20,12 +23,33 @@ const AboutMe = () => {
 					}}
 				/>
 				<div className="flex flex-col gap-8">
-					<p className="text-4xl max-sm:text-center" style={{ letterSpacing: ".4rem" }}>
+					<p
+						className="text-4xl max-sm:text-center"
+						style={{ letterSpacing: ".4rem" }}
+					>
 						Josué Nolasco
 					</p>
-					<p className="text-xl max-sm:text-[18px]" style={{ letterSpacing: ".2rem" }}>
+					<p
+						className="text-xl max-sm:text-[18px]"
+						style={{ letterSpacing: ".2rem" }}
+					>
 						{t("aboutMe")}
 					</p>
+					<div className="flex gap-6 items-center">
+						<Button variant="link" asChild>
+							<a href="https://www.linkedin.com/in/josue-nolasco-97b9b5247" target="_blank">
+								<FaLinkedin />
+								Linkedin
+							</a>
+						</Button>
+
+						<Button variant="link" asChild>
+							<a href={`/my_portfolio/docs/${i18n.language === "en" ? "Josue_Nolasco_CV_2025_ENGLISH" : "CV_Josue_Nolasco_2025"}.pdf`} target="_blank">
+								<IoDocumentText />
+								{t("resume")}
+							</a>
+						</Button>
+					</div>
 				</div>
 			</div>
 		</section>

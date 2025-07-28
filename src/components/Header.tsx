@@ -22,8 +22,10 @@ const Header = () => {
 		const scrollEvent = () => {
 			if (window.scrollY > 75) {
 				headerRef.current?.classList.add("border", "border-b-blue-500")
+				headerRef.current?.classList.add("bg-background")
 			} else {
 				headerRef.current?.classList.remove("border", "border-b-blue-500")
+				headerRef.current?.classList.remove("bg-background")
 			}
 		}
 		
@@ -36,9 +38,9 @@ const Header = () => {
 	return (
 		<header
 			ref={headerRef}
-			className="fixed top-0 px-10 py-4 w-full flex max-sm:flex-col items-center justify-between max-h-[75px] max-sm:max-h-fit max-sm:gap-y-2 z-[10000] bg-background"
+			className="fixed top-0 px-10 py-4 w-full flex max-sm:flex-col items-center justify-between max-h-[75px] max-sm:max-h-fit max-sm:gap-y-2 z-[1000]"
 			style={{
-				transition: "border-bottom 200ms ease-in-out"
+				transition: "border-bottom 200ms ease-in-out, background 200ms ease-in-out"
 			}}
 		>
 			<p className="text-2xl">{t("headerTitle")}</p>

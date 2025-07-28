@@ -20,7 +20,7 @@ const Projects = () => {
 	return (
 		<section className="my-40 max-sm:my-20 flex justify-center py-6 relative">
 			<div className="flex flex-col justify-between gap-6 sm:w-full md:w-[1080px]">
-				<div className="sticky top-[70px] z-10 bg-background p-4">
+				<div className="sticky top-[75px] z-10 bg-background p-4 rounded ring-1 ring-blue-500">
 					<p className="text-3xl" style={{ letterSpacing: ".2rem" }}>
 						{t("projectSectionTitle")}
 					</p>
