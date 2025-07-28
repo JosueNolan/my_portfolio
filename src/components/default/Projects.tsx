@@ -16,11 +16,11 @@ import {
 import { Badge } from "../ui/badge"
 
 const Projects = () => {
-	const { t } = useTranslation()
+	const { t, i18n } = useTranslation()
 	return (
 		<section className="my-40 max-sm:my-20 flex justify-center py-6 relative">
 			<div className="flex flex-col justify-between gap-6 sm:w-full md:w-[1080px]">
-				<div className="sticky top-[75px] max-sm:top-[120px] z-10 bg-background p-4 rounded ring-1 ring-blue-500">
+				<div className="sticky top-[5px] sm:top-[75px] z-10 bg-background p-4 rounded ring-1 ring-blue-500">
 					<p className="text-3xl" style={{ letterSpacing: ".2rem" }}>
 						{t("projectSectionTitle")}
 					</p>
@@ -231,6 +231,65 @@ const Projects = () => {
 								<Badge>.NET Framework 4.5</Badge>
 								<Badge>Google Maps API for Javascript</Badge>
 								<Badge>HighCharts</Badge>
+							</div>
+						</CardContent>
+					</Card>
+
+					<Card className="basis-1/2 scroll-anim-slide-in-right">
+						<CardHeader>
+							<CardTitle className="text-2xl">
+								{t("ventanillaunicatitle")}
+							</CardTitle>
+							<CardDescription className="text-[18px]">
+								{t("ventanillaunicadescription")}
+							</CardDescription>
+						</CardHeader>
+						<CardContent>
+							<Carousel
+								opts={{
+									loop: true,
+								}}
+							>
+								<CarouselContent>
+									<CarouselItem>
+										<img
+											src={`img/ventanilla_1${
+												i18n.language === "en" ? "_english" : ""
+											}.png`}
+											className="w-[380px] h-[380px] mx-auto object-contain"
+										/>
+									</CarouselItem>
+									<CarouselItem>
+										<img
+											src={`img/ventanilla_2${
+												i18n.language === "en" ? "_english" : ""
+											}.png`}
+											className="w-[380px] h-[380px] mx-auto object-contain"
+										/>
+									</CarouselItem>
+								</CarouselContent>
+								<CarouselPrevious className="left-0.5" />
+								<CarouselNext className="right-0.5" />
+							</Carousel>
+
+							<hr className="my-4" />
+							<p className="text-xl">{t("projectCardFooterTitle")}</p>
+							<p className="font-[500]">Frontend</p>
+							<div className="flex gap-4 flex-wrap mt-2">
+								<Badge>React</Badge>
+								<Badge>React Router</Badge>
+								<Badge>Tanstack React Query</Badge>
+								<Badge>Material UI</Badge>
+								<Badge>Stripe</Badge>
+							</div>
+							<p className="font-[500]">Backend</p>
+							<div className="flex gap-4 flex-wrap mt-2">
+								<Badge>Node JS</Badge>
+								<Badge>Express</Badge>
+								<Badge>Express Session</Badge>
+								<Badge>Passport</Badge>
+								<Badge>Mongoose</Badge>
+								<Badge>Mongo DB</Badge>
 							</div>
 						</CardContent>
 					</Card>

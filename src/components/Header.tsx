@@ -38,7 +38,7 @@ const Header = () => {
 	return (
 		<header
 			ref={headerRef}
-			className="fixed top-0 px-10 py-4 w-full flex max-sm:flex-col items-center justify-between max-h-[75px] max-sm:max-h-fit max-sm:gap-y-2 z-[1000]"
+			className="md:fixed md:top-0 px-10 py-4 w-full flex max-sm:flex-col items-center justify-between max-h-[75px] max-sm:max-h-fit max-sm:gap-y-2 z-[1000]"
 			style={{
 				transition: "border-bottom 200ms ease-in-out, background 200ms ease-in-out"
 			}}

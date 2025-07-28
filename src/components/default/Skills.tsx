@@ -11,6 +11,7 @@ import { TbBrandReactNative } from "react-icons/tb"
 import { BiLogoPostgresql } from "react-icons/bi"
 import { DiMsqlServer } from "react-icons/di"
 import { FaPhp, FaLaravel, FaNode, FaHtml5, FaCss3Alt } from "react-icons/fa"
+import { IoMdInformationCircle } from "react-icons/io"
 import FlipCard from "../FlipCard"
 
 const Skills = () => {
@@ -19,10 +20,14 @@ const Skills = () => {
 	return (
 		<section className="my-40 max-sm:my-20 flex justify-center relative">
 			<div className="flex flex-col items-center max-sm:w-full md:w-[1080px]">
-				<div className="sticky top-[75px] max-sm:top-[120px] z-10 bg-background p-4 rounded ring-2 ring-blue-500 w-full">
+				<div className="sticky top-[5px] sm:top-[75px] z-10 bg-background p-4 rounded ring-2 ring-blue-500 w-full">
 					<p className="text-3xl" style={{ letterSpacing: ".2rem" }}>
 						{t("skillsTitle")}
 					</p>
+					<div className="flex items-center gap-3 mt-2">
+						<IoMdInformationCircle />
+						<p className="text-muted-foreground">{t("skillsinstruction")}</p>
+					</div>
 				</div>
 
 				<div className="grid grid-cols-4 max-sm:grid-cols-1 p-5 w-full gap-8 items-stretch flex-wrap mt-4">
@@ -31,7 +36,7 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*1}ms`
+							animationDelay: `${100 * 1}ms`,
 						}}
 					>
 						<FlipCard
@@ -49,7 +54,7 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*2}ms`
+							animationDelay: `${100 * 2}ms`,
 						}}
 					>
 						<FlipCard
@@ -67,10 +72,11 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*3}ms`
+							animationDelay: `${100 * 3}ms`,
 						}}
 					>
 						<FlipCard
+							showIcon
 							front={
 								<>
 									<FaReact size={96} />
@@ -105,10 +111,11 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*4}ms`
+							animationDelay: `${100 * 4}ms`,
 						}}
 					>
 						<FlipCard
+							showIcon
 							front={
 								<>
 									<TbBrandReactNative size={96} />
@@ -149,10 +156,11 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*5}ms`
+							animationDelay: `${100 * 5}ms`,
 						}}
 					>
 						<FlipCard
+							showIcon
 							front={
 								<>
 									<SiExpo size={96} />
@@ -184,10 +192,11 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*6}ms`
+							animationDelay: `${100 * 6}ms`,
 						}}
 					>
 						<FlipCard
+							showIcon
 							front={
 								<>
 									<FaNode size={96} />
@@ -224,7 +233,7 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*7}ms`
+							animationDelay: `${100 * 7}ms`,
 						}}
 					>
 						<FlipCard
@@ -242,7 +251,7 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*8}ms`
+							animationDelay: `${100 * 8}ms`,
 						}}
 					>
 						<FlipCard
@@ -260,7 +269,7 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*9}ms`
+							animationDelay: `${100 * 9}ms`,
 						}}
 					>
 						<FlipCard
@@ -278,10 +287,11 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*10}ms`
+							animationDelay: `${100 * 10}ms`,
 						}}
 					>
 						<FlipCard
+							showIcon
 							front={
 								<>
 									<SiDotnet size={96} />
@@ -307,7 +317,7 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*11}ms`
+							animationDelay: `${100 * 11}ms`,
 						}}
 					>
 						<FlipCard
@@ -325,7 +335,7 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*12}ms`
+							animationDelay: `${100 * 12}ms`,
 						}}
 					>
 						<FlipCard
@@ -343,7 +353,7 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*13}ms`
+							animationDelay: `${100 * 13}ms`,
 						}}
 					>
 						<FlipCard
@@ -361,7 +371,7 @@ const Skills = () => {
 						style={{
 							animationTimeline: "view()",
 							animationRange: "0% 50%",
-							animationDelay: `${100*14}ms`
+							animationDelay: `${100 * 14}ms`,
 						}}
 					>
 						<FlipCard

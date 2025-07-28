@@ -1,5 +1,6 @@
 import { useRef, useState, type FC } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
+import { IoMdInformationCircle } from "react-icons/io"
 import { cn } from "@/lib/utils"
 
 type TFlipCard = {
@@ -7,6 +8,8 @@ type TFlipCard = {
 	back?: React.ReactNode
 	frontCardTitle?: string
 	backCardTitle?: string
+	showIcon?: boolean
+
 }
 
 const FlipCard: FC<TFlipCard> = ({
@@ -14,6 +17,7 @@ const FlipCard: FC<TFlipCard> = ({
 	back,
 	frontCardTitle,
 	backCardTitle,
+	showIcon
 }) => {
 	const [state, setState] = useState(false)
 	const cardRef = useRef<HTMLDivElement>(null)
@@ -26,6 +30,14 @@ const FlipCard: FC<TFlipCard> = ({
 				state && "[transform:rotateY(180deg)]"
 			)}
 		>
+			{
+				showIcon && !state && (
+					<IoMdInformationCircle 
+						size={24} 
+						className="absolute top-2 right-3 z-1"
+					/>
+				)
+			}
 			<Card
 				className={cn("absolute size-full backface-hidden gap-2", back && "cursor-pointer hover:ring-4 hover:ring-blue-500")}
 				onClick={() => back && setState(prev => !prev)}

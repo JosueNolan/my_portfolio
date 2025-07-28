@@ -8,7 +8,7 @@ const AboutMe = () => {
 	const { theme } = useTheme()
 	const { t, i18n } = useTranslation()
 	return (
-		<section className="flex justify-center py-6 my-32">
+		<section className="flex justify-center py-6 my-42 max-sm:my-20">
 			<div className="flex items-center justify-between gap-[72px] sm:w-full md:w-[1080px] max-sm:flex-col">
 				<img
 					src="img/foto_josue.jpg"
