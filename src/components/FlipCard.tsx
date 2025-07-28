@@ -22,7 +22,7 @@ const FlipCard: FC<TFlipCard> = ({
 		<div
 			ref={cardRef}
 			className={cn(
-				"relative size-full transition duration-500 [transform-style:preserve-3d] min-h-50",
+				"relative size-full transition duration-500 [transform-style:preserve-3d] min-h-50 max-sm:min-h-72",
 				state && "[transform:rotateY(180deg)]"
 			)}
 		>
@@ -35,7 +35,7 @@ const FlipCard: FC<TFlipCard> = ({
 						<CardTitle className="text-xl">{frontCardTitle}</CardTitle>
 					</CardHeader>
 				)}
-				<CardContent className="flex flex-col justify-center items-center">
+				<CardContent className="flex flex-col justify-center items-center !h-full">
 					{front}
 				</CardContent>
 			</Card>

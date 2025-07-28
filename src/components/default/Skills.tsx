@@ -18,14 +18,14 @@ const Skills = () => {
 
 	return (
 		<section className="my-40 max-sm:my-20 flex justify-center relative">
-			<div className="flex flex-col items-center sm:w-full md:w-[1080px]">
-				<div className="sticky top-[75px] z-10 bg-background p-4 rounded ring-2 ring-blue-500 w-full">
+			<div className="flex flex-col items-center max-sm:w-full md:w-[1080px]">
+				<div className="sticky top-[75px] max-sm:top-[120px] z-10 bg-background p-4 rounded ring-2 ring-blue-500 w-full">
 					<p className="text-3xl" style={{ letterSpacing: ".2rem" }}>
 						{t("skillsTitle")}
 					</p>
 				</div>
 
-				<div className="grid grid-cols-4 p-5 w-full gap-8 items-stretch flex-wrap mt-4">
+				<div className="grid grid-cols-4 max-sm:grid-cols-1 p-5 w-full gap-8 items-stretch flex-wrap mt-4">
 					<div
 						className="scale-up-center"
 						style={{

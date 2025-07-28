@@ -5,7 +5,7 @@ import { Button } from "../ui/button"
 const Contact = () => {
 	const { t } = useTranslation()
 	return (
-		<section className="my-52 max-sm:my-20 flex justify-center">
+		<section className="my-52 max-sm:my-20 flex justify-center px-6">
 			<div className="flex flex-col justify-between gap-6 sm:w-full md:w-[1080px]">
 				<Card>
 					<CardHeader>
