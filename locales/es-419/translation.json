@@ -47,5 +47,7 @@
 	"parttimejob": "Trabajo de medio tiempo",
 	"tecvictoriatitle": "Instituto Tecnológico de Ciudad Victoria",
 	"tecvictoriadates": "Aug 2014 - Feb 2019",
-	"tecvictoriadescription": "Título en Licenciatura de Ingeniería en Sistemas Computacionales"
+	"tecvictoriadescription": "Título en Licenciatura de Ingeniería en Sistemas Computacionales",
+	"footermadewith": "Página realizada con React, ShadCN/UI y Tailwind",
+	"footermadewith2": "...y con cariño."
 }
