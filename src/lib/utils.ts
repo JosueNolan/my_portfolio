@@ -7,5 +7,6 @@ export function cn(...inputs: ClassValue[]) {
 
 export const langDictionary = {
   "es-419": "Español",
+  "es-ES": "Español",
   "en": "English"
 }
