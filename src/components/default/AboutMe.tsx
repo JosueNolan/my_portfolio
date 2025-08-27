@@ -44,7 +44,7 @@ const AboutMe = () => {
 						</Button>
 
 						<Button variant="link" asChild>
-							<a href={`/my_portfolio/docs/${i18n.language === "en" ? "Josue_Nolasco_CV_2025_ENGLISH" : "CV_Josue_Nolasco_2025"}.pdf`} target="_blank">
+							<a href={`/my_portfolio/docs/${i18n.language === "en" ? "RESUME_JOSUE_NOLASCO_ENGLISH" : "RESUME_JOSUE_NOLASCO_SPANISH"}.pdf`} target="_blank">
 								<IoDocumentText />
 								{t("resume")}
 							</a>
