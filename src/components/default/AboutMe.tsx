@@ -22,13 +22,14 @@ const AboutMe = () => {
 						filter: theme === "dark" ? "brightness(0.9)" : undefined,
 					}}
 				/>
-				<div className="flex flex-col gap-8">
+				<div className="flex flex-col gap-4 [letter-spacing:.2rem]">
 					<p
 						className="text-4xl max-sm:text-center"
 						style={{ letterSpacing: ".4rem" }}
 					>
 						Josué Nolasco
 					</p>
+					<p className="text-xl">{t("myTitle")}</p>
 					<p
 						className="text-xl max-sm:text-[18px]"
 						style={{ letterSpacing: ".2rem" }}
