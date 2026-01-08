@@ -5,7 +5,6 @@
 	"langChangeItem2": "English",
 	"darkThemeTranslation": "Dark",
 	"lightThemeTranslation": "Light",
-	"aboutMeTitle": "About Me",
 	"aboutMe": "Full-stack developer with more than 5 years of experience creating web and mobile solutions with React, React Native, Node.js, PHP and ASP .NET. Specialist in relational databases and not relational, and design patterns. Committed to the delivery of scalable, efficient and well-documented products.",
 	"projectSectionTitle": "Main Projects",
 	"projectCardFooterTitle": "Used Skills",
@@ -49,5 +48,7 @@
 	"tecvictoriatitle": "Ciudad Victoria Institute of Technology",
 	"tecvictoriadates": "Ago 2014 - Feb 2019",
 	"tecvictoriadescription": "Bachelor of Computer Systems Engineering",
-	"endTitle": "That's all folks!"
+	"footermadewith": "Made with React, ShadCN/UI & Tailwind",
+	"footermadewith2": "...and with love.",
+	"myTitle": "Web Systems development, automation and mobile applications"
 }

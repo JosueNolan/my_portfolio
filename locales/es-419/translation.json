@@ -5,7 +5,6 @@
 	"langChangeItem2": "Ingles",
 	"darkThemeTranslation": "Oscuro",
 	"lightThemeTranslation": "Claro",
-	"aboutMeTitle": "Acerca de mí",
 	"aboutMe": "Desarrollador full-stack con más de 5 años de experiencia creando soluciones web y móviles con React, React Native, Node.js, PHP y ASP .NET. Especialista en bases de datos relacionales y no relacionales, y patrones de diseño. Comprometido con la entrega de productos escalables, eficientes y bien documentados.",
 	"projectSectionTitle": "Proyectos Destacados",
 	"projectCardFooterTitle": "Tecnologías usadas",
@@ -49,5 +48,7 @@
 	"tecvictoriatitle": "Instituto Tecnológico de Ciudad Victoria",
 	"tecvictoriadates": "Aug 2014 - Feb 2019",
 	"tecvictoriadescription": "Título en Licenciatura de Ingeniería en Sistemas Computacionales",
-	"endTitle": "¡Eso es todo amigos!"
+	"footermadewith": "Página realizada con React, ShadCN/UI y Tailwind",
+	"footermadewith2": "...y con cariño.",
+	"myTitle": "Desarrollo de sistemas web, automatización y aplicaciones móviles"
 }
